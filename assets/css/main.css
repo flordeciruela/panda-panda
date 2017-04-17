@@ -4,11 +4,11 @@
 }
 /*header*/
 nav {
-	background-color: #f22215;
+	background-color: #de4a2a;
 }
 
 ul {
-	padding-left: 150px;
+	padding-left: 200px;
 }
 
 li {
@@ -18,21 +18,23 @@ li {
 }
 
 a {
-	color: white;
+	color: #f6edbb;
 }
 
 body {
-	background-color: #7c5f20;
+	background-color: #1b1a07;
 }
 
 .content {
 	text-align: center;
-	margin: 0 150px;
+	margin: 20px 150px;
 }
 /*galería*/
 figure {
 	display: inline-block;
 	position: relative;
+	margin: 0 10px;
+	border: 5px solid gray;
 	width: 200px;
 	height: 200px
 }
@@ -52,16 +54,28 @@ figure a {
 	display: none !important;
 }
 /*texto*/
+button {
+	background-color: #de4a2a;
+	color: #f6edbb;
+	border: none;
+	width: 305px;
+	margin-top: 15px;
+	padding: 3px;
+}
 #historia {
 	display: inline-flex;
-	width: 500px;
+	width: 450px;
 	text-align: justify;
+	margin: 20px;
+	color: #f6edbb;
 }
 
 #origen {
 	display: inline-flex;
-	width: 500px;
+	width: 450px;
 	text-align: justify;
+	margin: 20px;
+	color: #f6edbb;
 }
 
 .ocultar {
