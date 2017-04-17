@@ -29,23 +29,41 @@ body {
 	text-align: center;
 	margin: 0 150px;
 }
-/*texto*/
-.text {
+/*galería*/
+figure {
+	display: inline-block;
 	position: relative;
+	width: 200px;
+	height: 200px
+}
+img {
+	width: 200px;
 }
 
-.historia {
+figure a {
 	position: absolute;
+	text-decoration: none;
+	top: 0;
+	left: 5px;
+	font-size: 20px;
+}
+
+.deleted {
+	display: none !important;
+}
+/*texto*/
+.historia {
+	display: inline-flex;
 	width: 500px;
-	left: 10px;
+	text-align: justify;
 }
 
 .origen {
-	position: absolute;
+	display: inline-flex;
 	width: 500px;
-	right: 10px
+	text-align: justify;
 }
 
-img {
-	width: 200px;
+.ocultar {
+	visibility: hidden !important;
 }
