@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 0;
 }
-
+/*header*/
 nav {
 	background-color: #f22215;
 }
@@ -19,4 +19,33 @@ li {
 
 a {
 	color: white;
+}
+
+body {
+	background-color: #7c5f20;
+}
+
+.content {
+	text-align: center;
+	margin: 0 150px;
+}
+/*texto*/
+.text {
+	position: relative;
+}
+
+.historia {
+	position: absolute;
+	width: 500px;
+	left: 10px;
+}
+
+.origen {
+	position: absolute;
+	width: 500px;
+	right: 10px
+}
+
+img {
+	width: 200px;
 }
