@@ -16,19 +16,19 @@ var figure = document.getElementsByTagName('figure');
 		figure[3].classList.add("deleted");
 	});
 //}
-document.getElementById('restaurar').addEventListener("click",function(){
+document.getElementById('b-restaurar').addEventListener("click",function(){
 	for(var elem in figure){
 		figure[elem].classList.remove("deleted");
 	}
 });
 
 //Función para mostrar y ocultar textos:
-document.getElementById('origen').addEventListener("click",function(){
-		var historia = document.getElementsByClassName("historia");
+document.getElementById('b-origen').addEventListener("click",function(){
+		var historia = document.getElementById("historia");
 		historia.classList.toggle("ocultar");
 });
 
-document.getElementById('extincion').addEventListener("click",function(){
-	var origen = document.getElementsByClassName("origen");
+document.getElementById('b-extincion').addEventListener("click",function(){
+	var origen = document.getElementById("origen");
 	origen.classList.toggle("ocultar");
 });

@@ -52,13 +52,13 @@ figure a {
 	display: none !important;
 }
 /*texto*/
-.historia {
+#historia {
 	display: inline-flex;
 	width: 500px;
 	text-align: justify;
 }
 
-.origen {
+#origen {
 	display: inline-flex;
 	width: 500px;
 	text-align: justify;
